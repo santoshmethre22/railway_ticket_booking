@@ -42,4 +42,9 @@ const userSchema= new mongoose.Schema({
 
 )
 
+/// --------------------------------------------->
+
+// complete the code wit the refferece from user and video model of the backend
+
+
 export  const User=mongoose.model("User",userSchema);
