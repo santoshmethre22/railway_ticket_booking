@@ -14,7 +14,10 @@ app.use(cookieParser());
 
 
 
-import router from "./routes/user.routers.js";
+// import router from "./routes/user.routers.js";
+// import { Router } from "express";
+
+import router from "../src/routes/user.routes.js"
 
 app.use('/api/v1/users',router);
 
